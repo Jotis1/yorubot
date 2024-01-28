@@ -2,9 +2,15 @@
 > [!NOTE]
 > Vale señores, como sé que no es normal ejecutar un bot en Typescript os digo cómo desplegarlo.
 
+0. El cero es como para tontitos, si es de TypeScript hay que instalar TypeScript, dale jefe, pues es sencillo, aunque ya está en el `package.json`, pero mejor prevenir que curar 🤠:
+
+    ```bash
+    npm -g install typescript
+    ```
 1. Haz un fork ⚔️ de [este respositorio]("https://github.com/Jotis1/yorubot/pulls")
 2. En tu repositorio local setea las variables de entorno en un archivo `.env.local` o `.env` (depende de cómo te vaya 👍)
 3. Instala todas las cositas 😘
+
     ```bash
     yarn init -y
     yarn install
@@ -13,11 +19,14 @@
     npm install
     # y con pnpm lo mismo 😒
     ```
+
 4. Tienes **un** comando bien bonico en el `package.json`, mira a ver cómo se llama y... adivinaste, ejecútalo si quieres que te rule.
+
     ```bash
     yarn dev:watch
     # y bueno ya sabemos, con el resto lo mismo
     npm run dev:watch
     ```
+    
 5. El último paso como decía **Arguiñano**: 
     > A disfrutar 😎
