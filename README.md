@@ -1,5 +1,5 @@
 ## Despliegue
-> [!INFO]
+> [!NOTE]
 > Vale señores, como sé que no es normal ejecutar un bot en Typescript os digo cómo desplegarlo.
 
 1. Haz un fork ⚔️ de [este respositorio]("https://github.com/Jotis1/yorubot/pulls")
